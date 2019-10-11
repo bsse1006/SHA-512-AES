@@ -38,7 +38,6 @@ public class PreProcessor {
     private void process () throws Exception
     {
         FileInputStream in = new FileInputStream(inputMessageFile);
-        //FileOutputStream out = new FileOutputStream("C:\\Users\\ASUS\\Desktop\\SHA512\\src\\files\\output.txt");
         int character, blockCounter = 0, blockCharCounter = 0;
         byte [] messageBlock = new byte [128];
         while ((character = in.read()) != -1) {
